@@ -9,3 +9,42 @@ html , body {
     width: 100%;
 }
 
+#page1{
+    height: 100vh;
+    height: 100dvh;
+    width: 100vw;
+    width: 100dvw;
+    background-color: aquamarine;
+}
+
+#page2{
+    height: 100vh;
+    height: 100dvh;
+    width: 100vw;
+    width: 100dvw;
+    background-color: rgb(127, 168, 255);
+}
+
+#page2 #img-div {
+    height: 100%;
+    width: 35%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+}
+
+#img-div img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    scale: 1.2;
+}
+
+#page3{
+    height: 100vh;
+    height: 100dvh;
+    width: 100vw;
+    width: 100dvw;
+    background-color: rgb(247, 59, 52);
+}
