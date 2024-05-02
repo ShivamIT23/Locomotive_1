@@ -19,3 +19,31 @@ html , body {
     justify-content: center;
     align-items: center;
 }
+
+#page2{
+    height: 100vh;
+    height: 100dvh;
+    width: 100vw;
+    width: 100dvw;
+    background-color: lemonchiffon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page3{
+    height: 100vh;
+    height: 100dvh;
+    width: 100vw;
+    width: 100dvw;
+    background-color: lemonchiffon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 30%;
+    width: 30%;
+    background-color: crimson;
+}
